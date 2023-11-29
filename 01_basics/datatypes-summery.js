@@ -33,3 +33,10 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(id === anotherId);
+
+//++++++++++++++++++++++++++
+//Satck (primitive), Heap(non primitive)
+
+let myYoutbeName = "Aditya";
+let anotherName = myYoutbeName;
+console.log(anotherName);
